@@ -19,6 +19,8 @@ import time
 
 def url_open(url):
     # 字典形式的请求头
+    # User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/65.0.3325.181 Chrome/65.0.3325.181 Safari/537.36
+    # 获取本机浏览器的http请求头：# tcpdump -i eth0 port 80 -s 1024 -l -A
     header = {
       'User-Agent': "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:16.0) Gecko/20100101 Firefox/16.0"
        }
